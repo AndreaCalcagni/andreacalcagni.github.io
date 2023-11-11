@@ -1,0 +1,40 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #F0F8FF; /* Light sky blue background */
+}
+
+header {
+    background-color: #FFD700; /* Gold color */
+    padding: 10px;
+    text-align: center;
+}
+
+h1, h2, h3 {
+    color: #000080; /* Navy color */
+}
+
+.intro, .features, .cta {
+    margin: 20px;
+    padding: 15px;
+    text-align: center;
+}
+
+button {
+    background-color: #008000; /* Green color */
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #006400; /* Dark green */
+}
+
+input[type=email] {
+    padding: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
